@@ -16,6 +16,14 @@ class ItemDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        textViewDidBeginEditing(itemNotesLabel)
+        textViewDidEndEditing(itemNotesLabel)
+        
+        itemNotesLabel.becomeFirstResponder()
+
+        itemNotesLabel.selectedTextRange = itemNotesLabel.textRange(from: itemNotesLabel.beginningOfDocument, to: itemNotesLabel.beginningOfDocument)
+        
         updateViews()
     }
     
@@ -34,6 +42,23 @@ class ItemDetailViewController: UIViewController {
         guard let item = item else { return }
         itemNameLabel.text = item.name
         itemNotesLabel.text = item.notes
+        itemNotesLabel.layer.cornerRadius = 45.0
+        itemNotesLabel.clipsToBounds = true
     }
-
+    
+    
+    func textViewDidBeginEditing(_ textView: UITextView) {
+        if itemNotesLabel.textColor == UIColor.lightGray {
+            itemNotesLabel.text = nil
+            itemNotesLabel.textColor = UIColor.black
+        }
+    }
+    
+    func textViewDidEndEditing(_ textView: UITextView) {
+        if itemNotesLabel.text.isEmpty {
+            itemNotesLabel.text = "Add Notes..."
+            itemNotesLabel.textColor = UIColor.lightGray
+        }
+    }
+    
 }
