@@ -11,6 +11,7 @@
 		B53DA6D627C98128006DF670 /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53DA6D527C98128006DF670 /* ItemController.swift */; };
 		B53DA6D827C98177006DF670 /* ItemListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53DA6D727C98177006DF670 /* ItemListTableViewController.swift */; };
 		B53DA6DA27C9818A006DF670 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53DA6D927C9818A006DF670 /* ItemDetailViewController.swift */; };
+		B53DA6DC27C981E6006DF670 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53DA6DB27C981E6006DF670 /* ItemTableViewCell.swift */; };
 		B5740EFD27C97FBE0087AE2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5740EFC27C97FBE0087AE2C /* Main.storyboard */; };
 		B5ED827A27C97ABF0078ADB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED827927C97ABF0078ADB4 /* AppDelegate.swift */; };
 		B5ED827C27C97ABF0078ADB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED827B27C97ABF0078ADB4 /* SceneDelegate.swift */; };
@@ -23,6 +24,7 @@
 		B53DA6D527C98128006DF670 /* ItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
 		B53DA6D727C98177006DF670 /* ItemListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListTableViewController.swift; sourceTree = "<group>"; };
 		B53DA6D927C9818A006DF670 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		B53DA6DB27C981E6006DF670 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		B5740EFC27C97FBE0087AE2C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B5ED827627C97ABF0078ADB4 /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5ED827927C97ABF0078ADB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				B5ED828427C97AC00078ADB4 /* LaunchScreen.storyboard */,
 				B5740EFC27C97FBE0087AE2C /* Main.storyboard */,
+				B53DA6DB27C981E6006DF670 /* ItemTableViewCell.swift */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				B53DA6DA27C9818A006DF670 /* ItemDetailViewController.swift in Sources */,
 				B53DA6D427C98121006DF670 /* Item.swift in Sources */,
 				B53DA6D627C98128006DF670 /* ItemController.swift in Sources */,
+				B53DA6DC27C981E6006DF670 /* ItemTableViewCell.swift in Sources */,
 				B5ED827C27C97ABF0078ADB4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
