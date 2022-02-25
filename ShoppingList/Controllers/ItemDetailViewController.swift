@@ -42,7 +42,7 @@ class ItemDetailViewController: UIViewController {
         guard let item = item else { return }
         itemNameLabel.text = item.name
         itemNotesLabel.text = item.notes
-        itemNotesLabel.layer.cornerRadius = 45.0
+        itemNotesLabel.layer.cornerRadius = 15.0
         itemNotesLabel.clipsToBounds = true
     }
     
