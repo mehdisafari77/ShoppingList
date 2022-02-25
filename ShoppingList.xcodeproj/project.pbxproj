@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B53DA6D427C98121006DF670 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53DA6D327C98121006DF670 /* Item.swift */; };
+		B53DA6D627C98128006DF670 /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53DA6D527C98128006DF670 /* ItemController.swift */; };
 		B5740EFD27C97FBE0087AE2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5740EFC27C97FBE0087AE2C /* Main.storyboard */; };
 		B5ED827A27C97ABF0078ADB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED827927C97ABF0078ADB4 /* AppDelegate.swift */; };
 		B5ED827C27C97ABF0078ADB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED827B27C97ABF0078ADB4 /* SceneDelegate.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B53DA6D327C98121006DF670 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B53DA6D527C98128006DF670 /* ItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
 		B5740EFC27C97FBE0087AE2C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B5ED827627C97ABF0078ADB4 /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5ED827927C97ABF0078ADB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 		B5ED828D27C97AF20078ADB4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B53DA6D327C98121006DF670 /* Item.swift */,
+				B53DA6D527C98128006DF670 /* ItemController.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -168,6 +174,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5ED827A27C97ABF0078ADB4 /* AppDelegate.swift in Sources */,
+				B53DA6D427C98121006DF670 /* Item.swift in Sources */,
+				B53DA6D627C98128006DF670 /* ItemController.swift in Sources */,
 				B5ED827C27C97ABF0078ADB4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
