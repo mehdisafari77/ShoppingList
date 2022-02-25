@@ -88,13 +88,13 @@
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add an Item ..." minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="rTu-Xn-svK">
                                 <rect key="frame" x="41.5" y="108" width="331" height="34"/>
-                                <color key="backgroundColor" red="0.47843137250000001" green="0.50588235290000005" blue="1" alpha="0.414812707" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.60842083907464084" green="0.96846753358840942" blue="0.61695569275787054" alpha="0.414812707" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Add Notes ..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1rQ-Wy-hoB">
                                 <rect key="frame" x="30" y="192" width="354" height="620"/>
-                                <color key="backgroundColor" red="0.47843137250000001" green="0.50588235290000005" blue="1" alpha="0.414812707" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.78182109363145824" green="0.96944552659988403" blue="0.76130931600095364" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
